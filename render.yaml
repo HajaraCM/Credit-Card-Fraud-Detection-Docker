@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: my-model-service
+    env: docker
+    docker:
+      dockerfilePath: ./Dockerfile
+    plan: free
+    autoDeploy: false
+    regions:
+      - oregon
+    healthCheckPath: /health
+    envVars:
+      - key: MY_ENV_VAR
+        value: my_value

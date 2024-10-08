@@ -90,7 +90,7 @@ def predict_fraud():
         probability = model.predict_proba([input_for_model])[0][1]
 
         # Prepare the result as a JSON response
-        result =  " Fraud" if prediction[0] == 1 else "Not Fraud"
+        result =  " Fraud detected: Please review the transaction for further verification." if prediction[0] == 1 else "No fraud detected: The transaction appears to be legitimate."
 
     return render_template('result.html',result=result)
         
