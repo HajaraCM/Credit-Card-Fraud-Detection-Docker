@@ -134,7 +134,7 @@
         <div class="input-row">
             <div>
                 <label for="amount">Amount</label>
-                <input type="number" id="amount" name="amount" required step="0.01" placeholder="Enter amount">
+                <input type="text" id="amount" name="amount" required step="0.01" placeholder="Enter amount">
             </div>
             <div>
                 <label for="time">Time (HH:MM:SS)</label>
@@ -146,8 +146,7 @@
     
     {% if result %}
     <div class="result">
-        <h2>Prediction Result</h2>
-        <p>Prediction: {{ result }}</p>
+        <p>{{ result }}</p>
     </div>
     {% endif %}
     
