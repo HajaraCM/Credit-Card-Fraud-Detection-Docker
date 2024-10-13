@@ -46,9 +46,7 @@ The dataset is highly imbalanced, with fraudulent transactions accounting for on
 - In addition to AUC-ROC, the model's performance is also evaluated using recall scores:
 - **Recall**: Also known as sensitivity or true positive rate, recall measures the proportion of actual positive cases (frauds) that were correctly identified by the model. High recall indicates a low false negative rate.
 
-   \[
-  \text{Recall} = \frac{\text{True Positives}}{\text{True Positives} + \text{False Negatives}}
-  \]
+   Recall = True Positives / (True Positives + False Negatives)
 ## Key Features
 
 - **Fraud Prediction**: Utilizes multiple machine learning algorithms to identify fraudulent transactions.
