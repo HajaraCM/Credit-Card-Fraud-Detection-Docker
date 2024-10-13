@@ -18,6 +18,8 @@ The dataset includes:
 - **Class**: The response variable, taking a value of 1 in case of fraud and 0 otherwise.
 
 ## Project Pipeline
+```
+.
 
 ├── Plots/                                      : Contains all visualizations and plots
 ├── Credit_Fraud_Analysis.ipynb                 : Contains EDA, data preprocessing, and model development (including K-Means clustering)
@@ -31,6 +33,9 @@ The dataset includes:
 ├── requirements.txt                            : Python package dependencies
 ├── LICENSE                                      : License
 └── README.md                                    : Project documentation
+
+```
+<br/>
 
 
 ### Class Imbalance
