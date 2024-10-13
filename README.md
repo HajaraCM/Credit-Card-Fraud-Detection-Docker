@@ -83,7 +83,7 @@ Given the class imbalance ratio, measuring the model's accuracy using the Area U
    
 2. Navigate to the project directory:
     ```bash
-   cd credit-card-fraud-detection
+   cd Credit-Card-Fraud-Detection-Docker
 
 3. Build the Docker image:
     ```bash
