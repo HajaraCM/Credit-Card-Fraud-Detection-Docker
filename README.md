@@ -22,7 +22,7 @@ The dataset includes:
 
 
 ├── Plots/                                      : Contains all visualizations and plots
-├── Credit_Fraud_Analysis.ipynb                 : Contains EDA, data preprocessing, and model development (including K-Means clustering)
+├── creditcard_fraud_detection.ipynb                 : Contains EDA, data preprocessing, and model development (including K-Means clustering)
 ├── Flask_API.ipynb                             : Implementation of the Flask API
 ├── Frontend/                                   : Contains HTML and CSS files for the UI
 │   ├── index.html                              : Main HTML file for user interaction
@@ -84,6 +84,16 @@ Given the class imbalance ratio, measuring the model's accuracy using the Area U
 2. Navigate to the project directory:
     ```bash
    cd credit-card-fraud-detection
+
+3. Build the Docker image:
+    ```bash
+   docker build -t fraud-detection-app .
+4. Run the Docker container:
+    ```bash
+   docker run -p 5000:5000 fraud-detection-app
+    ```
+
+
 
 
 
