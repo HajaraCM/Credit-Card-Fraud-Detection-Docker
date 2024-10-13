@@ -19,7 +19,7 @@ The dataset includes:
 
 ## Project Pipeline
 ```
-.
+
 
 ├── Plots/                                      : Contains all visualizations and plots
 ├── Credit_Fraud_Analysis.ipynb                 : Contains EDA, data preprocessing, and model development (including K-Means clustering)
@@ -74,6 +74,17 @@ Given the class imbalance ratio, measuring the model's accuracy using the Area U
 8. **Containerization**: Dockerized the application for consistent deployment.
 9. **CI/CD Pipeline**: Set up GitHub Actions to automate testing and deployment.
 10. **Deployment**: Deployed the application on Render for public access.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/credit-card-fraud-detection.git
+   
+2. Navigate to the project directory:
+    ```bash
+   cd credit-card-fraud-detection
+
 
 
 
