@@ -23,7 +23,7 @@ The dataset includes:
 
 ├── Plots/                                      : Contains all visualizations and plots
 ├── creditcard_fraud_detection.ipynb            : Contains EDA, data preprocessing, and model development (including K-Means clustering)
-├── Flask_API.ipynb                             : Implementation of the Flask API
+├── app.py                                      : Implementation of the Flask API
 ├── Frontend/                                   : Contains HTML and CSS files for the UI
 │   ├── index.html                              : Main HTML file for user interaction
 │   └── result.html                             : HTML file to display prediction results
