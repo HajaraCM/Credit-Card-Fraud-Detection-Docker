@@ -79,7 +79,7 @@ Given the class imbalance ratio, measuring the model's accuracy using the Area U
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/credit-card-fraud-detection.git
+   git clone https://github.com/yourusername/Credit-Card-Fraud-Detection-Docker.git
    
 2. Navigate to the project directory:
     ```bash
