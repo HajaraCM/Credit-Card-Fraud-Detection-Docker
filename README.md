@@ -40,8 +40,15 @@ The dataset includes:
 
 ### Class Imbalance
 
-Given the class imbalance ratio, measuring the model's accuracy using the Area Under the Precision-Recall Curve (AUPRC) is recommended. Traditional confusion matrix accuracy is not meaningful in unbalanced classification contexts.
+The dataset is highly imbalanced, with fraudulent transactions accounting for only 0.172% of all transactions. Due to this imbalance, traditional accuracy metrics are not meaningful. Instead, the following metrics are used for evaluation:
 
+- **Area Under the Receiver Operating Characteristic Curve (AUC-ROC)**: This metric provides insight into the trade-off between true positive rates and false positive rates at various thresholds, helping to understand model performance across different decision boundaries.
+- In addition to AUC-ROC, the model's performance is also evaluated using recall scores:
+- **Recall**: Also known as sensitivity or true positive rate, recall measures the proportion of actual positive cases (frauds) that were correctly identified by the model. High recall indicates a low false negative rate.
+
+  \[
+  \text{Recall} = \frac{\text{True Positives}}{\text{True Positives} + \text{False Negatives}}
+  \]
 ## Key Features
 
 - **Fraud Prediction**: Utilizes multiple machine learning algorithms to identify fraudulent transactions.
